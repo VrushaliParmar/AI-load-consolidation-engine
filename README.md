@@ -3,214 +3,221 @@
 # 🚛 AI Load Consolidation Engine
 ### *Smarter Trucks. Fewer Trips. Lower Costs.*
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OR-Tools](https://img.shields.io/badge/OR--Tools-Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=AI-Powered+Logistics+Optimization;95%+Truck+Capacity+Utilization;Reduce+Trips+%7C+Reduce+Cost+%7C+Reduce+Emissions" />
 
-> **PS-5 Ideation Submission — Hash-Tech**  
-> An AI-powered engine that groups shipments, packs trucks intelligently, and optimizes routes — so every truck goes out **95% full**.
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+<br>
+
+> ### 🚀 PS-5 Ideation Submission — Team Hash-Tech
+> *An AI-powered logistics engine that intelligently groups shipments, maximizes truck utilization, minimizes transportation costs, and reduces unnecessary trips.*
 
 ---
 
-| 🚚 40% Fewer Trucks | 💰 30% Cost Saved | 📦 95% Truck Capacity |
-|:---:|:---:|:---:|
-| AI decides how many trucks you actually need | Real savings tracked per rupee | Max load, min waste |
+<table>
+<tr>
+<td align="center">
+<h2>🚚 40%</h2>
+Reduced Trucks
+</td>
+
+<td align="center">
+<h2>💰 30%</h2>
+Lower Transport Cost
+</td>
+
+<td align="center">
+<h2>📦 95%</h2>
+Truck Utilization
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-## 🔴 The Problem — What's Going Wrong Today?
+# 📌 Problem Statement
 
-> *"Imagine 10 trucks leaving a warehouse every day. Only 5 of them are actually full."*
+Every day, logistics companies send trucks that are only partially filled.
 
-The other 5 are half-empty — burning fuel, costing money, polluting air. Why? Because no system is checking:
+This creates:
 
-- 🤔 Can we **combine** these shipments?
-- 🗺️ Are these trucks going the **same direction**?
-- 📉 Do we really need 10 trucks, or can **6 do the job**?
+- 🚛 Extra trucks on roads
+- ⛽ Fuel wastage
+- 💸 Increased transportation costs
+- 🌍 Higher carbon emissions
+- 📉 Inefficient route planning
 
-**Every half-empty truck is money driving away.**
+### Example
 
----
+Imagine 10 trucks leaving a warehouse daily.
 
-## 💡 Our Solution — What We Built
+Only 5 are fully loaded.
 
-An **AI brain for truck loading** that works in 4 simple steps:
+The remaining trucks travel half-empty — wasting money and fuel.
 
-```
-📦 Shipment Data  →  📍 Group by Area  →  🚛 Pack Trucks  →  💰 Minimize Cost  →  ✅ Final Plan
-```
+The core issue is:
 
-| Step | What it does | How |
-|------|-------------|-----|
-| **1 — Group** | Which shipments go to the same area? | K-Means clustering |
-| **2 — Pack** | How do we fit maximum shipments in one truck? | FFD Bin Packing (weight + volume) |
-| **3 — Optimize** | What's the cheapest way to do all this? | OR-Tools LP solver |
-| **4 — Simulate** | What if a truck breaks down? Demand spikes? | 1000 scenario stress test |
+- Shipments are not grouped intelligently
+- Route similarity is ignored
+- Truck capacity is underutilized
+- Manual planning causes inefficiency
 
 ---
 
-## 🧠 The Intelligence Behind It
+# 💡 Our Solution
 
-| AI Tool | Purpose |
-|---------|---------|
-| 🔵 **K-Means Clustering** | Groups nearby deliveries into smart zones |
-| 📦 **Bin Packing (FFD)** | Fits shipments efficiently by weight AND size |
-| 🔢 **OR-Tools LP** | Finds the cheapest route and minimum trucks needed |
-| 📈 **Forecasting** | Predicts busy days before they happen |
-| 🎯 **Simulation** | Tests 1000 plans before dispatch — picks the safest one |
+The **AI Load Consolidation Engine** acts as an intelligent decision-making system for logistics optimization.
 
----
+It automatically:
 
-## 🛠️ Tech Stack
-
-### Backend & AI
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-
-### Optimization
-![Google OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat-square)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+✅ Groups nearby deliveries  
+✅ Packs trucks efficiently  
+✅ Minimizes total transportation cost  
+✅ Predicts demand spikes  
+✅ Simulates risk scenarios before dispatch  
 
 ---
 
-## 📁 Project Structure
+# ⚙️ System Workflow
 
-```
+```text
+📦 Shipment Data
+        ↓
+📍 AI Clustering Engine
+        ↓
+🚛 Smart Truck Packing
+        ↓
+📉 Cost Optimization
+        ↓
+📊 Simulation & Forecasting
+        ↓
+✅ Final Dispatch Plan
+🧠 Core Intelligence
+Module	Function
+🔵 K-Means Clustering	Groups shipments by destination similarity
+📦 FFD Bin Packing	Maximizes truck utilization using weight & volume
+🔢 OR-Tools Optimization	Minimizes total transport cost
+📈 Forecasting Engine	Predicts future shipment demand
+🎯 Simulation Engine	Stress-tests dispatch plans across 1000 scenarios
+🛠️ Tech Stack
+🔹 Backend & AI
+Technology	Purpose
+Python	Core development
+FastAPI	High-performance backend APIs
+scikit-learn	Machine learning algorithms
+Pandas & NumPy	Data processing
+SciPy	Scientific computations
+OR-Tools	Optimization engine
+🔹 Dashboard & Visualization
+Technology	Purpose
+Streamlit	Interactive dashboard
+Plotly	Dynamic analytics visualization
+Matplotlib	Data visualization
+📂 Project Structure
 ai-load-consolidation-engine/
 │
-├── 📄 README.md
-├── 📄 requirements.txt
-├── 📄 .gitignore
+├── README.md
+├── requirements.txt
+├── .gitignore
 │
-├── 🗂️ backend/                        # Vrushali
-│   ├── main.py                         # FastAPI entry point
+├── backend/                        # Vrushali
+│   ├── main.py
 │   ├── clustering/
-│   │   └── kmeans_grouping.py          # K-Means clustering logic
+│   │   └── kmeans_grouping.py
 │   ├── agents/
-│   │   └── multi_agent_flow.py         # Multi-agent decision system
+│   │   └── multi_agent_flow.py
 │   └── data/
-│       └── sample_shipments.csv        # Sample data for testing
+│       └── sample_shipments.csv
 │
-├── 🗂️ optimization/                    # Prathamesh
-│   ├── bin_packing.py                  # FFD bin packing algorithm
-│   ├── lp_optimizer.py                 # OR-Tools LP objective function
-│   ├── simulation.py                   # 1000-scenario stress test
-│   └── forecasting.py                  # Demand spike prediction
+├── optimization/                   # Prathamesh
+│   ├── bin_packing.py
+│   ├── lp_optimizer.py
+│   ├── simulation.py
+│   └── forecasting.py
 │
-├── 🗂️ frontend/                        # Khushanuma
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Dashboard.jsx           # Before/After metrics view
-│   │   │   ├── TruckMap.jsx            # Visual truck load display
-│   │   │   └── CostTracker.jsx         # Live cost savings tracker
-│   │   └── App.jsx
-│   └── public/
+├── dashboard/                      # Khushanuma
+│   ├── app.py
+│   ├── analytics.py
+│   ├── truck_visualizer.py
+│   └── cost_tracker.py
 │
-└── 🗂️ docs/
+└── docs/
     └── architecture.md
-```
-
----
-
-## 🚀 Quick Start
-
-### 1. Clone the Repo
-```bash
+🚀 Quick Start
+1️⃣ Clone Repository
 git clone https://github.com/YOUR_USERNAME/ai-load-consolidation-engine.git
+
 cd ai-load-consolidation-engine
-```
-
-### 2. Set Up Backend
-```bash
+2️⃣ Install Dependencies
 pip install -r requirements.txt
+3️⃣ Start Backend Server
 uvicorn backend.main:app --reload
-```
+4️⃣ Launch Dashboard
+streamlit run dashboard/app.py
+📊 Expected Results
+Metric	Before AI	After AI
+Trucks Used	10	6
+Truck Utilization	45%	95%
+Transport Cost	₹1,00,000	₹70,000
+Planning Method	Manual	AI-driven
+Carbon Emissions	High	Reduced by 40%
+📈 Key Features
+🚚 Smart Shipment Consolidation
 
-### 3. Set Up Frontend
-```bash
-cd frontend
-npm install
-npm start
-```
+Automatically groups deliveries going in similar directions.
 
-### 4. Open in Browser
-```
-http://localhost:3000
-```
+📦 Intelligent Truck Packing
 
----
+Fits maximum shipments within truck weight & volume limits.
 
-## 🌿 Branch Strategy
+📉 Cost Optimization
 
-Each team member works on their own branch:
+Reduces unnecessary trips and fuel expenses.
 
-```bash
-# Vrushali
-git checkout -b vrushali/clustering-backend
+📈 Demand Forecasting
 
-# Prathamesh
-git checkout -b prathamesh/optimization
+Predicts peak logistics demand before it happens.
 
-# Khushanuma
-git checkout -b khushanuma/frontend-dashboard
-```
+🎯 Simulation Testing
 
-Always raise a **Pull Request** before merging into `main`.
+Runs 1000+ stress scenarios for safer dispatch planning.
 
----
+🌍 Sustainability Focus
 
-## 📊 Results — Before vs After
+Reduces carbon emissions through optimized transportation.
 
-| Metric | Before | After |
-|--------|--------|-------|
-| Trucks used | 10 (half-empty) | 6 (95% full) |
-| Transport cost | ₹1,00,000 | ₹70,000 |
-| Planning method | Guesswork | AI-driven decisions |
-| Emissions | From 10 trips | Reduced by 40% |
-| Re-optimization | Manual | Real-time automatic |
-
----
-
-## 👥 Team — Hash-Tech
-
-| Member | Role | Responsibility |
-|--------|------|----------------|
-| 👩‍💻 **Vrushali** | AI Architecture | K-Means clustering, FastAPI backend, multi-agent system design |
-| 👨‍💻 **Prathamesh** | Optimization Engineer | OR-Tools LP, FFD bin packing, simulation, forecasting models |
-| 👩‍🎨 **Khushanuma** | Frontend & Analytics | React dashboard, truck visualizer, logistics analytics |
-
----
-
-## 📦 requirements.txt Preview
-
-```
+👨‍💻 Team Hash-Tech
+Member	Role	Responsibilities
+👩‍💻 Vrushali	AI Architect	K-Means clustering, backend APIs, multi-agent workflow
+👨‍💻 Prathamesh	Optimization Engineer	OR-Tools optimization, simulation, forecasting
+👩‍🎨 Khushanuma	Dashboard & Analytics	Streamlit dashboard, visualization, analytics
+🔮 Future Scope
+🌐 Real-time GPS truck tracking
+📡 Live traffic-aware optimization
+☁️ Cloud deployment on AWS
+🗄️ PostgreSQL integration
+🔔 Real-time alert system
+📲 Mobile logistics dashboard
+📦 requirements.txt
 fastapi
 uvicorn
+streamlit
+plotly
 scikit-learn
 ortools
 pandas
 numpy
 scipy
-```
-
----
-
+matplotlib
 <div align="center">
-
-Built with 🚛 by **Hash-Tech** | PS-5: Smarter Trucks. Fewer Trips. Lower Costs.
-
-*Every half-empty truck is money driving away — we fixed that.*
-
-</div>
+🌟 Why This Matters
+Every half-empty truck is wasted money, fuel, and opportunity.
+🚛 We make every trip smarter.
