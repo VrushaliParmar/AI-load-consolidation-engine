@@ -1,6 +1,7 @@
 <div align="center">
 
 # 🚛 AI Load Consolidation Engine
+
 ### *Smarter Trucks. Fewer Trips. Lower Costs.*
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=AI-Powered+Logistics+Optimization;95%25+Truck+Capacity+Utilization;Reduce+Trips+%7C+Reduce+Cost+%7C+Reduce+Emissions;Smart+Dispatch+Planning+with+AI" />
@@ -24,6 +25,8 @@
 
 > An intelligent logistics engine that consolidates shipments, optimizes truck utilization, reduces transportation costs, and minimizes carbon emissions using Machine Learning and Operations Research.
 
+</div>
+
 ---
 
 <table>
@@ -31,6 +34,7 @@
 <td align="center" width="250">
 
 ## 🚚 40%
+
 ### Reduced Trucks
 
 </td>
@@ -38,6 +42,7 @@
 <td align="center" width="250">
 
 ## 💰 30%
+
 ### Lower Transport Cost
 
 </td>
@@ -45,12 +50,12 @@
 <td align="center" width="250">
 
 ## 📦 95%
+
 ### Truck Utilization
 
 </td>
 </tr>
 </table>
-
 
 ---
 
@@ -58,48 +63,45 @@
 
 Modern logistics companies frequently dispatch partially loaded trucks, leading to:
 
-- 🚛 Increased number of vehicles on roads
-- ⛽ Excess fuel consumption
-- 💸 Higher operational expenses
-- 🌍 Increased carbon emissions
-- 📉 Poor fleet utilization
-- 🕒 Manual and inefficient route planning
+* 🚛 Increased number of vehicles on roads
+* ⛽ Excess fuel consumption
+* 💸 Higher operational expenses
+* 🌍 Increased carbon emissions
+* 📉 Poor fleet utilization
+* 🕒 Manual and inefficient route planning
 
 ---
 
 ## 📖 Real-World Scenario
 
-Imagine a warehouse dispatching **10 trucks daily**.
+Imagine a warehouse dispatching **10 trucks daily**:
 
-- Only **5 trucks are fully loaded**
-- Remaining trucks operate at **40–50% capacity**
-- Fuel, labor, and transportation costs increase unnecessarily
+* Only **5 trucks are fully loaded**
+* Remaining trucks operate at **40–50% capacity**
 
 ### Core Challenges
 
-❌ Shipments are not grouped intelligently  
-❌ Destination similarity is ignored  
-❌ Truck capacity remains underutilized  
-❌ Manual planning causes inefficiency  
+❌ Shipments are not grouped intelligently
+❌ Destination similarity is ignored
+❌ Truck capacity remains underutilized
+❌ Manual planning causes inefficiency
 
 ---
 
 # 💡 Our Solution
 
-The **AI Load Consolidation Engine** is an AI-driven logistics optimization system designed to:
+The **AI Load Consolidation Engine**:
 
-✅ Group nearby deliveries intelligently  
-✅ Maximize truck capacity utilization  
-✅ Reduce fuel and transportation costs  
-✅ Forecast shipment demand spikes  
-✅ Simulate operational risks before dispatch  
-✅ Improve sustainability with fewer trips  
+✅ Groups nearby deliveries intelligently
+✅ Maximizes truck capacity utilization
+✅ Reduces fuel and transportation costs
+✅ Forecasts shipment demand
+✅ Simulates operational risks
+✅ Improves sustainability
 
 ---
 
 # ⚙️ System Workflow
-
-<div align="center">
 
 ```text
 📦 Shipment Data
@@ -115,19 +117,17 @@ The **AI Load Consolidation Engine** is an AI-driven logistics optimization syst
 ✅ Final Dispatch Plan
 ```
 
-</div>
-
 ---
 
 # 🧠 Core Intelligence Modules
 
-| Module | Function |
-|---|---|
-| 🔵 K-Means Clustering | Groups shipments by destination similarity |
-| 📦 FFD Bin Packing | Maximizes truck utilization using weight & volume |
-| 🔢 OR-Tools Optimization | Minimizes total transportation cost |
-| 📈 Forecasting Engine | Predicts future shipment demand |
-| 🎯 Simulation Engine | Stress-tests dispatch plans across 1000 scenarios |
+| Module                   | Function                        |
+| ------------------------ | ------------------------------- |
+| 🔵 K-Means Clustering    | Groups shipments by destination |
+| 📦 FFD Bin Packing       | Maximizes truck utilization     |
+| 🔢 OR-Tools Optimization | Minimizes cost                  |
+| 📈 Forecasting Engine    | Predicts demand                 |
+| 🎯 Simulation Engine     | Tests scenarios                 |
 
 ---
 
@@ -135,30 +135,30 @@ The **AI Load Consolidation Engine** is an AI-driven logistics optimization syst
 
 ## 🔹 Backend & AI
 
-| Technology | Purpose |
-|---|---|
-| Python | Core development |
-| FastAPI | High-performance backend APIs |
-| scikit-learn | Machine learning algorithms |
-| Pandas & NumPy | Data processing |
-| SciPy | Scientific computations |
-| OR-Tools | Optimization engine |
+| Technology     | Purpose          |
+| -------------- | ---------------- |
+| Python         | Core development |
+| FastAPI        | Backend APIs     |
+| scikit-learn   | ML algorithms    |
+| Pandas & NumPy | Data processing  |
+| SciPy          | Computation      |
+| OR-Tools       | Optimization     |
 
 ---
 
-## 🔹 Dashboard & Visualization
+## 🔹 Dashboard
 
-| Technology | Purpose |
-|---|---|
-| Streamlit | Interactive dashboard |
-| Plotly | Dynamic analytics visualization |
-| Matplotlib | Data visualization |
+| Technology | Purpose       |
+| ---------- | ------------- |
+| Streamlit  | UI            |
+| Plotly     | Charts        |
+| Matplotlib | Visualization |
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```bash
+```text
 ai-load-consolidation-engine/
 │
 ├── README.md
@@ -167,13 +167,10 @@ ai-load-consolidation-engine/
 │
 ├── backend/
 │   ├── main.py
-│   │
 │   ├── clustering/
 │   │   └── kmeans_grouping.py
-│   │
 │   ├── agents/
 │   │   └── multi_agent_flow.py
-│   │
 │   └── data/
 │       └── sample_shipments.csv
 │
@@ -201,11 +198,8 @@ ai-load-consolidation-engine/
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-load-consolidation-engine.git
-
 cd ai-load-consolidation-engine
 ```
-
----
 
 ## 2️⃣ Install Dependencies
 
@@ -213,15 +207,11 @@ cd ai-load-consolidation-engine
 pip install -r requirements.txt
 ```
 
----
-
-## 3️⃣ Start Backend Server
+## 3️⃣ Start Backend
 
 ```bash
 uvicorn backend.main:app --reload
 ```
-
----
 
 ## 4️⃣ Launch Dashboard
 
@@ -233,65 +223,31 @@ streamlit run dashboard/app.py
 
 # 📊 Expected Results
 
-| Metric | Before AI | After AI |
-|---|---|---|
-| Trucks Used | 10 | 6 |
-| Truck Utilization | 45% | 95% |
-| Transport Cost | ₹1,00,000 | ₹70,000 |
-| Planning Method | Manual | AI-driven |
-| Carbon Emissions | High | Reduced by 40% |
+| Metric      | Before    | After   |
+| ----------- | --------- | ------- |
+| Trucks      | 10        | 6       |
+| Utilization | 45%       | 95%     |
+| Cost        | ₹1,00,000 | ₹70,000 |
 
 ---
 
 # ✨ Key Features
 
-## 🚚 Smart Shipment Consolidation
-Automatically groups deliveries traveling in similar directions.
-
----
-
-## 📦 Intelligent Truck Packing
-Fits maximum shipments within truck weight and volume constraints.
-
----
-
-## 📉 Cost Optimization
-Reduces unnecessary trips and operational expenses.
-
----
-
-## 📈 Demand Forecasting
-Predicts logistics demand before peak load conditions occur.
-
----
-
-## 🎯 Simulation Testing
-Runs 1000+ dispatch stress-test scenarios for better planning.
-
----
-
-## 🌍 Sustainability Focus
-Helps reduce carbon emissions through optimized transportation.
-
----
-
-
-| Member | Role | Responsibilities |
-|---|---|---|
-| 👩‍💻 Vrushali | AI Architect | K-Means clustering, backend APIs, multi-agent workflow |
-| 👨‍💻 Prathamesh | Optimization Engineer | OR-Tools optimization, simulation, forecasting |
-| 👩‍🎨 Khushanuma | Dashboard & Analytics | Streamlit dashboard, visualization, analytics |
+* 🚚 Smart consolidation
+* 📦 Efficient packing
+* 📉 Cost reduction
+* 📈 Demand prediction
+* 🎯 Simulation testing
+* 🌍 Sustainability
 
 ---
 
 # 🔮 Future Scope
 
-- 🌐 Real-time GPS truck tracking
-- 📡 Live traffic-aware optimization
-- ☁️ AWS cloud deployment
-- 🗄️ PostgreSQL integration
-- 🔔 Real-time alert system
-- 📲 Mobile logistics dashboard
+* GPS tracking
+* Traffic-aware routing
+* Cloud deployment
+* Mobile app
 
 ---
 
@@ -312,18 +268,10 @@ matplotlib
 
 ---
 
-# 🌟 Why This Matters
-
 <div align="center">
 
-## “Every half-empty truck is wasted money, fuel, and opportunity.”
+## 🌟 “Every half-empty truck is wasted money, fuel, and opportunity.”
 
-### 🚛 We make every trip smarter.
-
-<br>
-
-<img src="https://img.shields.io/badge/Built%20with-AI-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Focused%20on-Sustainability-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Powered%20by-Optimization-orange?style=for-the-badge" />
+🚛 We make every trip smarter.
 
 </div>
